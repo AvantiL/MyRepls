@@ -1,11 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T10:22:09.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_3u-XV7ZXUDxZ61jE8Ww" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T10:55:30.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="g16-gbOy8zr98ozj5KR_" version="21.5.2" type="github">
   <diagram name="Page-1" id="FIjcyZ_254MZzjEIVPe6">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CrpJ-Gkg23ytYG_juvOR-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="30" width="120" height="60" as="geometry" />
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrpJ-Gkg23ytYG_juvOR-2" target="CrpJ-Gkg23ytYG_juvOR-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrpJ-Gkg23ytYG_juvOR-2" target="CrpJ-Gkg23ytYG_juvOR-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-2" value="Year divisible by 4?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="170" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrpJ-Gkg23ytYG_juvOR-17" target="CrpJ-Gkg23ytYG_juvOR-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-17" value="START" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="375" y="30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrpJ-Gkg23ytYG_juvOR-18" target="CrpJ-Gkg23ytYG_juvOR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrpJ-Gkg23ytYG_juvOR-18" target="CrpJ-Gkg23ytYG_juvOR-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-18" value="Year divisible by 100?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="387.5" width="150" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-21" value="Not leap year" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-23" value="Leap year" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrpJ-Gkg23ytYG_juvOR-24" target="CrpJ-Gkg23ytYG_juvOR-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CrpJ-Gkg23ytYG_juvOR-24" target="CrpJ-Gkg23ytYG_juvOR-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-24" value="Year divisible by 400?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-33" value="Leap year" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="600" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrpJ-Gkg23ytYG_juvOR-35" value="Not leap year" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
